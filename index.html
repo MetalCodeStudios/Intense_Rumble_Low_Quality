@@ -421,6 +421,8 @@ height="1px"
 
     <script>
       const video = document.getElementById('bgvideo');
+      const canva = document.getElementById('canvas');
+      canva.style.imageRendering = "pixelated";
 
       video.addEventListener('ended', function () {
         // Fade out by setting opacity to 0
